@@ -1,0 +1,72 @@
+body {
+    background-color: antiquewhite;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+main {
+    text-align: center;
+}
+
+h1, ul, p, img, table, form {
+    padding: 10px;
+}
+li {
+    display: inline-block;
+    height: 25px;
+    width: 75px;
+    padding: 2px;
+    text-align: center;
+    color: white;
+    border: 2px solid darkgreen;
+    background-color: rgb(4, 213, 4);
+}
+li:hover {
+    background-color: lightgreen;
+    border-style: none;
+}
+h1 {
+    text-align: center;
+}
+p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 800px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+td, th {
+    padding: 10px 5px;
+    background-color: #96d4d4;
+}
+td:hover {
+    background-color: green;
+}
+
+form {
+    display: inline-block;
+}
+input[type="text"], input[type="email"], input[type="submit"], textarea {
+    display: block;
+    margin: 15px 0px;
+    width: 250px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 200px;
+    padding: 5px 4px;
+}
+button:active {
+    background-color: lightgreen;
+    color: blue;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 5px green;
+}
